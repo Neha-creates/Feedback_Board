@@ -1,14 +1,27 @@
 body{
-    margin: 20px;
+    padding: 0;
+    margin: 0;
+    color: light-dark(#333b3c, #efefec);
+    background-color: light-dark(#efedea, #223a2c);
+    height: 100vh;
     text-align: center;
 }
-table{
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    align-items: center;
+.light{
+    color-scheme: light;
 }
-th, td{
-    border: 1px solid;
-    text-align: center;
+.dark{
+    color-scheme: dark;
+}
+img{
+    width: 10%;
+    background-color: white;
+    height: 10%;
+}
+#toggle-btn{
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #efedea;
+}
+#details{
 }
